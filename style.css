@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #ffcb22, #ff5722);
+    backdrop-filter: blur(0px);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 850px;
+    height: 300px;
+    display: flex;
+    gap: 20px;
+    background: linear-gradient(45deg, #e6771d, #f3aa2c);
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.time-box {
+    width: 221px;
+    height: 235px;
+    text-align: center;
+    margin: auto;
+    background: #050505E5;
+    border-radius: 9px;
+    box-shadow: 8px 9px 22px 1px #00000099;
+}
+
+.time {
+    margin-top: 45px;
+    font-family: Inter;
+    font-size: 90px;
+    font-weight: 400;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+
+p {
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 22.99px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
